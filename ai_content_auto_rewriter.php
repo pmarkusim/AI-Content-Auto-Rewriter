@@ -1,4 +1,3 @@
-
 <?php
 /*
 Plugin Name: AI Content Auto Rewriter
@@ -175,4 +174,3 @@ function rewrite_content_with_openai($post_id) {
         error_log('AI Content Auto Rewriter - API válasz érvénytelen vagy üres: ' . print_r($body, true));
     }
 }
-?>
